@@ -4,16 +4,14 @@
 
 'use strict'
 
-const apeTmpl = require('ape-tmpl')
-const { description, name } = require('../package.json')
+const {dir} = require('the-templates')
+const {description, name} = require('../package.json')
 
-module.exports = apeTmpl.indexJsBud({
-  desc: description,
-  module: name,
+module.exports = dir({
+  name,
+  description,
   dirname: __dirname,
-  subclasses: [
-    '*'
-  ]
+  cjs: true
 })
 
 if (!module.parent) {
