@@ -1,0 +1,76 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a WConstants instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "WConstants",
+                "description": ""
+            }
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a WConstants instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "WConstants",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "WConstants",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WConstants",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "WConstants",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WConstants",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
