@@ -74,11 +74,11 @@ Usage
 ```javascript
 'use strict'
 
-const {SignalEvents} = require('w-constants')
+const {VerbSpec} = require('w-constants')
 
 async function tryExample () {
-  const {Request} = SignalEvents
-  console.log(Request)
+  const {RESERVED_NAMES} = VerbSpec
+  console.log(RESERVED_NAMES.split(','))
 }
 
 tryExample().catch((err) => console.error(err))
