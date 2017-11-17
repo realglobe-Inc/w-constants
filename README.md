@@ -95,6 +95,16 @@ tryExample().catch((err) => console.error(err))
 Values
 ------
 
++ [VerbSpec](#VerbSpec)
+
+
+<a name="VerbSpec" ></a>
+
+### VerbSpec
+
+| Key | Value |
+| --- | ---- |
+| RESERVED_NAMES | `new` |
 
 
 

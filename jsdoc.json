@@ -1,76 +1,32 @@
 {
-    "functions": [
+    "namespaces": [
         {
-            "name": "create",
+            "name": "VerbSpec",
+            "description": "Verb spec",
             "access": "",
-            "virtual": false,
-            "description": "Create a WConstants instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "WConstants",
-                "description": ""
-            }
+            "virtual": false
         },
         {
-            "name": "create",
+            "name": "VerbSpec",
+            "description": "Verb spec",
             "access": "",
-            "virtual": false,
-            "description": "Create a WConstants instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "WConstants",
-                "description": ""
-            }
+            "virtual": false
         }
     ],
-    "classes": [
+    "properties": [
         {
-            "name": "WConstants",
-            "description": "",
-            "extends": [],
+            "name": "RESERVED_NAMES",
             "access": "",
             "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "WConstants",
-                "description": "",
-                "parameters": [],
-                "examples": []
-            }
+            "description": "Name which cannot be used",
+            "type": ""
         },
         {
-            "name": "WConstants",
-            "description": "",
-            "extends": [],
+            "name": "RESERVED_NAMES",
             "access": "",
             "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "WConstants",
-                "description": "",
-                "parameters": [],
-                "examples": []
-            }
+            "description": "Name which cannot be used",
+            "type": ""
         }
     ]
 }
