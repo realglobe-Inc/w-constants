@@ -1,10 +1,10 @@
 'use strict'
 
-const {SignalEvents} = require('w-constants')
+const {VerbSpec} = require('w-constants')
 
 async function tryExample () {
-  const {REQUEST} = SignalEvents
-  console.log(REQUEST)
+  const {RESERVED_NAMES} = VerbSpec
+  console.log(RESERVED_NAMES.split(','))
 }
 
 tryExample().catch((err) => console.error(err))
